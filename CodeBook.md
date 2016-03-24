@@ -15,8 +15,8 @@ The original dataset have been modified as following:
 
 
 The fields in the final dataset:
--subjectID: numeric, 1-30 identification number of the person who performed the activities
--activity: factor, the type of activity performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+- subjectID: numeric, 1-30 identification number of the person who performed the activities
+- activity: factor, the type of activity performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 Plus the means of the following variables per each subject and activity type:
 - tBodyAccMeanX: time, mean of the BodyAcc in direction X
