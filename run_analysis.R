@@ -80,4 +80,4 @@ subdata_melt<-melt(subdata,id=c("subjectID","activity"))
 ## keeping subjectID and activity as ID and using mean on all the variables:
 final_dataset<-dcast(subdata_melt, subjectID + activity ~ variable, mean)
 
-write.table(final_dataset, file="./data/R_assignment4_TidyData.csv")
+write.table(final_dataset, file="./data/R_assignment4_TidyData.txt")
